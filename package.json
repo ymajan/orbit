@@ -21,8 +21,18 @@
     "typescript": "^5.3.3"
   },
   "trustedDependencies": [
-    "sqlite3",
-    "remark-wiki-link"
+    "@sentry/cli",
+    "@swc/core",
+    "better-sqlite3",
+    "core-js",
+    "core-js-pure",
+    "es5-ext",
+    "esbuild",
+    "farmhash",
+    "protobufjs",
+    "re2",
+    "remark-wiki-link",
+    "sqlite3"
   ],
   "workspaces": [
     "packages/*"
